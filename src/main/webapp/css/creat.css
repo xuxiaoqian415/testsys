@@ -1,0 +1,66 @@
+.table{
+    margin-top: 200px;
+    margin-right: 20px;
+    clear: both;
+    position: fixed;
+    -webkit-box-shadow: 3px 3px 2px 2px rgba(0,0,0,.3);
+    box-shadow:  3px 3px 2px 2px rgba(0,0,0,.3);
+}
+table{
+    table-layout: fixed;
+    width: 20px;
+    word-break: break-all;
+    cellspacing:0;
+
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background-color: #151f58;
+    opacity: 0.5;
+    margin: 50px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 180px;
+
+}
+table tr td{
+    text-align: center;
+}
+.form{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+button{
+    font-weight: bold;
+    font-size: larger;
+}
+iframe{
+    border: none;
+    background-color: #f6f1f1;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    float:left;
+    width: 600px;
+    height: 400px;
+    -webkit-box-shadow: 3px 3px 2px 2px rgba(0,0,0,.3);
+    box-shadow:  3px 3px 2px 2px rgba(0,0,0,.3);
+}
+.href{
+    text-decoration: none;
+    font-weight: bolder;
+    color:black;
+}
+.but{
+    padding: 2px;
+    background-color: #151f58;
+    opacity: 0.3;
+    padding: 10px;
+
+}
+.but:hover{
+    -webkit-box-shadow: 3px 3px 2px 2px rgba(0,0,0,.5);
+    box-shadow:  3px 3px 2px 2px rgba(0,0,0,.5);
+}

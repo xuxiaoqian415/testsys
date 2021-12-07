@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客观题表单</title>
+</head>
+<body>
+<center>
+    <form action="/creatProblem" method="post">
+        <input type="hidden" name="back" value="html/form1.html">
+        <p style="font-weight: bold;font-size: 20px">请输入您要命名的题型:</p>
+        单选题<input type="radio" name="pType" value="0">
+        多选题<input type="radio" name="pType" value="1"><br>
+        <p style="font-weight: bold;font-size: 20px">请输入客观题题目:</p>
+        <textarea cols="30" rows="5" name="problem"></textarea><br><br>
+        本题分值:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="number" step="0.5" min="0" name="score"><br><br>
+        请输入选项A:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="a"><br><br>
+        请输入选项B:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="b"><br><br>
+        请输入选项C:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="c"><br><br>
+        请输入选项D:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="d"><br><br>
+        请输入正确答案:&nbsp
+        <lable><input type="checkbox" name="answer" value="A">A </lable>
+        <lable><input type="checkbox" name="answer" value="B">B </lable>
+        <lable><input type="checkbox" name="answer" value="C">C </lable>
+        <lable><input type="checkbox" name="answer" value="D">D </lable><br><br>
+        <input type="submit" value="&nbsp&nbsp&nbsp提交&nbsp&nbsp&nbsp">
+    </form>
+</center>
+</body>
+</html>

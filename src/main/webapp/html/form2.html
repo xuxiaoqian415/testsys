@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主观题表单</title>
+</head>
+<body>
+<center>
+   <form action="/creatProblem" method="post">
+       <input type="hidden" name="back" value="html/form2.html">
+       <input type="hidden" name="pType" value="2">
+       <p style="font-size: 20px;font-weight: bold">输入主观题题目：</p>
+       <textarea rows="10" cols="30" name="problem"></textarea><br><br>
+       本题分值<input type="number" step="1" min="0" name="score"><br><br>
+       <input type="submit" value="&nbsp&nbsp&nbsp提交&nbsp&nbsp&nbsp">
+   </form>
+</center>
+</body>
+</html>

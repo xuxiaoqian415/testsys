@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考试信息</title>
+</head>
+<body>
+<center>
+    <form style="margin-top: 80px;font-size: 20px;font-weight: bold" action="/creatTest" method="post">
+        <input type="hidden" name="back" value="html/testMessage.html">
+        发布至班级ID:<input type="text" name="classesId">(用;分隔)<br><br>
+        考试时长:&nbsp<input type="text" name="time">min<br><br>
+        试卷标题:&nbsp&nbsp<input type="text" name="testName"><br><br>
+        开始时间:&nbsp&nbsp<input type="date" name="start"><br><br>
+        结束时间:&nbsp&nbsp<input type="date" name="end" width="40"><br><br>
+        出题人:&nbsp&nbsp<input type="text" name="teachName"><br><br>
+        <input type="submit" value="&nbsp&nbsp&nbsp提交&nbsp&nbsp&nbsp">
+    </form>
+</center>
+</body>
+</html>
